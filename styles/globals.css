@@ -14,3 +14,7 @@ a {
 * {
   box-sizing: border-box;
 }
+@font-face {
+  font-family: 'ModernAntiqua-Regular';
+  src: url(../public/font/ModernAntiqua-Regular.ttf);
+}
