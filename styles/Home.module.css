@@ -1,4 +1,4 @@
-.container {
+/* .container {
   min-height: 100vh;
   padding: 0 0.5rem;
   display: flex;
@@ -118,4 +118,25 @@
     width: 100%;
     flex-direction: column;
   }
+} */
+
+.container {
+  min-width: 100vw;
+  height: 100vh;
+  background-color:		
+  #ecece4;
+}
+.title {
+  font-family: 'ModernAntiqua-Regular';
+  font-weight: 800;
+  font-size: 25px;
+  height: 20%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  padding-right: 200px;
+  border-bottom: 2px solid rgb(229,212,191,0.5);
+}
+.link {
+  margin-right: 50px;
 }
