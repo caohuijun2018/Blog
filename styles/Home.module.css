@@ -130,7 +130,7 @@
   font-family: 'ModernAntiqua-Regular';
   font-weight: 800;
   font-size: 25px;
-  height: 20%;
+  height: 85px;
   display: flex;
   align-items: center;
   justify-content: flex-end;
@@ -139,4 +139,31 @@
 }
 .link {
   margin-right: 50px;
+}
+.content {
+  font-family: 'ShadowsIntoLightTwo';
+  font-size: 90px;
+  margin-top: 50px;
+}
+.solgnF{
+  display: inline-block;
+  margin-left: 27%;
+  margin-bottom: 10px;
+}
+.solgnS {
+  display: inline-block;
+  margin-left: 35%;
+  margin-bottom: 10px;
+}
+.solgnT{
+  display: inline-block;
+  margin-left: 38%;
+  margin-bottom: 10px;
+}
+.img {
+  min-width: 30% !important;
+  min-height: 30% !important;
+  right: 300px !important;
+  bottom: 15px !important;
+  position: absolute;
 }
