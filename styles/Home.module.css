@@ -123,6 +123,7 @@
 .container {
   min-width: 100vw;
   height: 100vh;
+  min-height: 730px;
   background-color:		
   #ecece4;
 }
