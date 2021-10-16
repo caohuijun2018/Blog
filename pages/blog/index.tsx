@@ -6,8 +6,8 @@ import { Card } from "../../components/card";
 import { Footer } from "antd/lib/layout/layout";
 interface cardType {
   title: string;
-  des ?: string;
-  tar ?: string;
+  des?: string;
+  tar?: string;
 }
 const Blog = () => {
   const content: Array<cardType> = [
@@ -22,11 +22,23 @@ const Blog = () => {
       tar: "/blog/HTTP-status-code",
     },
     {
-      title: "HTTP响应状态码",
+      title: "这也是一个测试",
       des: "HTTP响应状态码用来表明服务器端的响应状态，了解和熟悉常见的响应状态码有助于快速明确请求状态信息",
       tar: "/blog/HTTP-status-code",
     },
   ];
+
+  const Display = (content:Array<cardType>) => {
+        if(content.length === 0) {
+            return;
+        } else {
+            content.forEach((item) => {
+                return (
+                  <Card title={item.title} des={item.des} tar={item.tar}></Card>
+                );
+              })
+        }
+  }
 
   return (
     <>
@@ -44,16 +56,12 @@ const Blog = () => {
           </a>
         </div>
         <div className={styles.content}>
-          <Card
-            title={content[1].title}
-            des={content[0].des}
-            tar={content[0].tar}
-          ></Card>
-          {/* {
-              content.length > 0 ? content.forEach(item => {
-                  <Card title={item.title} des={item.des} tar={item.tar}></Card>
-              }) : 
-          }  */}
+          {content.length > 0 &&
+            content.map((item) => {
+              return (
+                <Card title={item.title} des={item.des} tar={item.tar}></Card>
+              );
+            })}
         </div>
         <Footer></Footer>
       </main>
