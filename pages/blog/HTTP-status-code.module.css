@@ -1,0 +1,36 @@
+.container {
+    background-color: #f7f7f3;
+    padding: 10px 150px;
+    text-align: center;
+    font-family: 'emoji';
+}
+.title {
+    color: rgb(20,20,20,0.9);
+    font-size: 24px;
+    width: 100%;
+}
+.content {
+    color: rgb(20,20,20,0.8);
+    font-size: 16px;
+    text-align: start;
+    text-indent: 3%;
+    line-height: 20px;
+}
+.mark {
+    font-weight: 800;
+}
+.time {
+    text-align: end;
+    color: rgb(20,20,20,0.5);
+}
+.backTop {
+    height: 40px;
+    width: 40spx;
+    line-height: 40px;
+    border-radius: 4px;
+    background-color:#1088e9;
+    color: #fff;
+    text-align: center;
+    font-size: 14px;
+    
+}

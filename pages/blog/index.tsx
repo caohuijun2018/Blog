@@ -27,19 +27,6 @@ const Blog = () => {
       tar: "/blog/HTTP-status-code",
     },
   ];
-
-  const Display = (content:Array<cardType>) => {
-        if(content.length === 0) {
-            return;
-        } else {
-            content.forEach((item) => {
-                return (
-                  <Card title={item.title} des={item.des} tar={item.tar}></Card>
-                );
-              })
-        }
-  }
-
   return (
     <>
       <Head>
