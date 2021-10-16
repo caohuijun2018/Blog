@@ -22,3 +22,7 @@ a {
   font-family: 'ShadowsIntoLightTwo';
   src: url(../public/font/ShadowsIntoLightTwo-Regular.ttf);
 }
+@font-face {
+  font-family: 'Zoccolkuaile';
+  src: url(../public/font//ZCOOLKuaiLe-Regular.ttf);
+}
