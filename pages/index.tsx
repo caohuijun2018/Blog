@@ -3,6 +3,7 @@ import Head from "next/head";
 import Image from "next/image";
 import Link from "next/link";
 import image from '../public/images/image.png'
+import weChat from './weChat.png'
 import styles from "../styles/Home.module.css";
 
 const Home: NextPage = () => {
@@ -10,7 +11,7 @@ const Home: NextPage = () => {
     <div className={styles.container}>
       <Head>
         <title>caohuijun'page</title>
-        <link rel="icon" href="/favicon.ico" />
+        <link rel="icon" href="/favicon.png" />
       </Head>
       <main className={styles.container}>
         <div className={styles.title}>
@@ -23,11 +24,10 @@ const Home: NextPage = () => {
           </a>
           <a
             className={styles.link}
-            href="https://github.com/caohuijun2018/Resume"
+            href="https://caohuijun.hi-hi.cn/"
           >
             Resume
           </a>
-          <span>WeChat</span>
         </div>
         <div className={styles.content}>
           <span className={styles.solgnF}>" Dont's let your</span>

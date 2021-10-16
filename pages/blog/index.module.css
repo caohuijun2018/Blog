@@ -1,0 +1,26 @@
+.container {
+    background-color: #ecece4;
+    height: 100%;
+    background-size: cover;
+}
+.content {
+    min-height: 550px;
+    background-color:rgb(0,0,0,0.2);
+    display: flex;
+    margin: 50px 200px 0 200px; 
+    padding-bottom: 30px;
+} 
+.title {
+    font-family: 'ModernAntiqua-Regular';
+    font-weight: 800;
+    font-size: 25px;
+    height: 85px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    padding-right: 200px;
+    border-bottom: 2px solid rgb(229,212,191,0.5);
+  }
+  .link {
+    margin-right: 50px;
+  }
