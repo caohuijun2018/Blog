@@ -17,9 +17,9 @@ const Blog = () => {
       tar: "/blog/HTTP-status-code",
     },
     {
-      title: "这是一个测试",
-      des: "HTTP响应状态码用来表明服务器端的响应状态，了解和熟悉常见的响应状态码有助于快速明确请求状态信息",
-      tar: "/blog/HTTP-status-code",
+      title: "从输入一个URL到页面展示之间发生了什么？",
+      des: "超高频面试题目-掌握页面加载的整个过程",
+      tar: "/blog/URL-display",
     },
     {
       title: "这也是一个测试",
