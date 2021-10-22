@@ -22,9 +22,9 @@ const Blog = () => {
       tar: "/blog/URL-display",
     },
     {
-      title: "这也是一个测试",
-      des: "HTTP响应状态码用来表明服务器端的响应状态，了解和熟悉常见的响应状态码有助于快速明确请求状态信息",
-      tar: "/blog/HTTP-status-code",
+      title: "实现两边固定，中间自适应的三栏布局",
+      des: "在开发中经常遇到的分栏布局问题，在这里总结几种好用的布局方式",
+      tar: "/blog/Column-layout",
     },
   ];
   return (
